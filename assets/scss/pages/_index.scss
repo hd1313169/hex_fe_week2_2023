@@ -70,13 +70,25 @@
 
   &-discord{
     background-image: url(https://github.com/hd1313169/hex_fe_week2_2023/blob/main/assets/images/discord.png?raw=true);
+
+    &:hover{
+      box-shadow: 0px 0px 16px 3px rgba($color: #9094FF, $alpha: 0.9);;
+    }
   }
 
   &-instagram{
     background-image: url(https://github.com/hd1313169/hex_fe_week2_2023/blob/main/assets/images/instagram.png?raw=true);
+    
+    &:hover{
+      box-shadow: 0px 0px 16px 3px rgba($color: #E12c6a, $alpha: 0.9);;
+    }
   }
   &-message{
     background-image: url(https://github.com/hd1313169/hex_fe_week2_2023/blob/main/assets/images/message.png?raw=true);
+    
+    &:hover{
+      box-shadow: 0px 0px 16px 3px rgba($color: #00DD50, $alpha: 0.9);;
+    }
   }
 
   &-item{
@@ -86,10 +98,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    &:hover{
-      box-shadow: 0px 0px 16px 3px rgba($color: #9094FF, $alpha: 0.9);;
-    }
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0 rgba($color: #000000, $alpha: 0.25);
   }
-
 }
