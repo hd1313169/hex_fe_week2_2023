@@ -10,7 +10,7 @@
 .d-flex{
     display: flex;
 }
-.justfy-between{
+.justify-between{
 justify-content: space-between;
 }
 .align-items-center{
@@ -21,6 +21,9 @@ justify-content: space-between;
 }
 .flex-column{
     flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 // spacing
 .w-526{
@@ -41,8 +44,17 @@ justify-content: space-between;
 .mr-16{
     margin-right: 16px;
 }
+.mr-20{
+    margin-right: 20px;
+}
 .mr-24{
     margin-right: 24px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-24{
+    margin-bottom: 24px;
 }
 .mb-32{
     margin-bottom: 32px;
@@ -52,6 +64,9 @@ justify-content: space-between;
 }
 .py-72{
     padding: 72px 0;
+}
+.py-96{
+    padding: 96px 0;
 }
 .py-160{
     padding: 160px 0;
@@ -79,10 +94,12 @@ justify-content: space-between;
     color: #fff;
 }
 
+.fs-20{
+    font-size: 1.25rem;
+}
 .fs-24{
     font-size: 1.5rem;
 }
-
 .fs-64{
     font-size: 4rem;
 }
